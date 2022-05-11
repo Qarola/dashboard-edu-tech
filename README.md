@@ -24,7 +24,7 @@ Usted puede clonar este repositorio de la siguiente manera:
 ```sh
 
 $ cd
-$ mkdir "nombre de la carpeta/archivo"
+$ mkdir "nombre de la carpeta/archivo a crear"
 $ cd "nombre de la carpeta creada"
 $ git clone https://github.com/Qarola/kuepa-edu-tech.git
 
