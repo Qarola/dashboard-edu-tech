@@ -2,7 +2,19 @@
 Challenge UI
 
 ```sh
-Esta aplicación fue desarrollado con create-react-app. React v-18.1.0
+Esta aplicación fue desarrollada con create-react-app. React v-18.1.0
+Hice uso de tecnologías como:
+`ReactJS`
+`Hooks`
+`Material UI`
+`Axios`
+`CSS3 Module`
+`HTML5`
+`MomentJS`
+`Date Picker de Material-UI`
+`React Circular Progress Bar`
+
+
 Tiene un diseño responsive.
 
 ```
