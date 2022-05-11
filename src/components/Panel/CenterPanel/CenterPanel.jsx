@@ -22,7 +22,9 @@ const CenterPanel = () => {
         <div className="container-search">
           <input className="input-search" type="text" placeholder="Search" />
           <img className="icon-search" src={FilterIcon} alt=" searching icon" />
-         <div className="date-right"><InlineDatePicker /></div>
+          <div className="date-right">
+            <InlineDatePicker />
+          </div>
         </div>
         <h1>Hola, {user.profile.name}</h1>
         <LeadsStats user={user} />

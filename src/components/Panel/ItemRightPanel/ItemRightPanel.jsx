@@ -6,7 +6,8 @@ import moment from "moment";
 
 import "./ItemRightPanel.css";
 
-let timesAgo = moment("2022-05-09T18:18:00-05:00").fromNow();
+//momentjs, me permite mostrar el tiempo que ha pasado...
+let timesAgo = moment("2022-05-11T11:11:00-05:00").fromNow();
 
 const ItemRightPanel = ({ user }) => {
   return (
@@ -25,7 +26,7 @@ const ItemRightPanel = ({ user }) => {
   );
 };
 
-// Documentacion
+// Validación de types...
 ItemRightPanel.propTypes = {
   user: PropTypes.object.isRequired,
 };

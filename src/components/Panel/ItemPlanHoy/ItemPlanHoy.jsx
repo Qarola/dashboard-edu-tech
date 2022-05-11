@@ -16,7 +16,7 @@ const ItemPlanHoy = ({ colorSquare, calls, msgs, title }) => {
 
   // Referencias a elementos
   const refSquare = useRef();
-  // Objeto de estilo para el numero
+  // Objeto de estilo para el número
   const styleNumber = {
     background: colorSquare,
     WebkitBackgroundClip: "text",
@@ -58,6 +58,7 @@ const ItemPlanHoy = ({ colorSquare, calls, msgs, title }) => {
   );
 };
 
+//validación de types
 ItemPlanHoy.propTypes = {
   colorSquare: PropTypes.string,
   calls: PropTypes.number.isRequired,

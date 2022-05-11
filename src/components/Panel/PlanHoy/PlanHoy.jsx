@@ -4,8 +4,8 @@ import playersContext from "../../../context/playerContext/playersContext";
 import "./PlanHoy.css";
 
 const PlanHoy = () => {
-  const playersCon = useContext(playersContext);
-  let { filterPlayers } = playersCon;
+  const playersContxt = useContext(playersContext);
+  let { filterPlayers } = playersContxt;
   if (filterPlayers === undefined)
     filterPlayers = { none: 0, core: 0, support: 0 };
   const color1 =
@@ -18,9 +18,7 @@ const PlanHoy = () => {
   return (
     <div className="container-plan-hoy">
       <p className="title-plan-hoy">Tu plan de hoy</p>
-      <p className="call-handling">
-        Ir a la gestión de llamadas {">"}{" "}
-      </p>
+      <p className="call-handling">Ir a la gestión de llamadas {">"} </p>
       {filterPlayers.support ? (
         <ItemPlanHoy
           colorSquare={color1}

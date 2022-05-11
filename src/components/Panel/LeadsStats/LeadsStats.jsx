@@ -7,6 +7,7 @@ import "./LeadsStats.css";
 const LeadsStats = ({ user }) => {
   // Validaciónes
   if (user == null) user = { rank_tier: 1, leaderboard_rank: 1 };
+  //para obtener porcentajes, utilizo los rangos que me ofrece la data...
   const percentage = Math.round((user.rank_tier * 100) / user.leaderboard_rank);
 
   return (
@@ -46,7 +47,7 @@ const LeadsStats = ({ user }) => {
   );
 };
 
-// Documentacion
+// Validación de types...
 LeadsStats.propTypes = {
   user: PropTypes.object.isRequired,
 };

@@ -1,22 +1,20 @@
 import React, { useContext } from "react";
+import playersContext from "../../../context/playerContext/playersContext";
+import kuepaIcon from "../../../assets/kuepa_icon.png";
 import HomeIcon from "@material-ui/icons/Home";
 import ReceiptIcon from "@material-ui/icons/Receipt";
 import BooksIcon from "@material-ui/icons/LibraryBooks";
 import ChatIcon from "@material-ui/icons/ChatBubbleOutline";
-import kuepaIcon from "../../../assets/kuepa_icon.png";
-import playersContext from "../../../context/playerContext/playersContext";
 import "./LeftPanel.css";
 
-
 const LeftPanel = () => {
-  const playersCon = useContext(playersContext);
-  let { user } = playersCon;
+  const playersContxt = useContext(playersContext);
+  let { user } = playersContxt;
   if (user.profile === undefined) user = { profile: { avatar: "" } };
 
   return (
     <div className="inline-top-div home-left-panel bg-color-primary">
       <div className="containere-left-panel">
-        {/* <p className='title-panel-left'>ket</p> */}
         <img
           src={kuepaIcon}
           className="img-title-panel-left"

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import "./MetaGrupal.css";
 
-
 const MetaGrupal = ({ user }) => {
   const backGroundProgress =
     "-webkit-linear-gradient(left,rgb(247, 134, 149) 0%, rgb(252, 160, 112)";
@@ -30,7 +29,7 @@ const MetaGrupal = ({ user }) => {
   );
 };
 
-// Documentacion
+// Validación de types
 MetaGrupal.propTypes = {
   user: PropTypes.object.isRequired,
 };

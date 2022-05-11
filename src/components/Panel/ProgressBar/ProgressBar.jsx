@@ -32,7 +32,7 @@ const ProgressBar = ({ progress, title, disableTitle, width, background }) => {
   );
 };
 
-// Documentacion
+// Validación de types...
 ProgressBar.propTypes = {
   progress: PropTypes.string.isRequired,
   title: PropTypes.string,

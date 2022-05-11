@@ -5,16 +5,15 @@ import playersContext from "../../../context/playerContext/playersContext";
 
 import "./RightPanel.css";
 
-
-
 const RightPanel = () => {
-  const playersCon = useContext(playersContext);
-  const { proPlayers } = playersCon;
+  const playersContxt = useContext(playersContext);
+  const { proPlayers } = playersContxt;
 
-  // Control del panel
+  // Control del panel derecho...
   const [open, updateOpen] = useState(false);
   const [widthScreen, updateWidth] = useState(false);
 
+  //el evento resize se activará cuando cambie el tamaño de la vista del documento...
   useEffect(() => {
     window.addEventListener("resize", () => {
       setWidth(document.documentElement.clientWidth);
