@@ -47,13 +47,13 @@ Para pantallas mayores a 14":
 
 ![kuepa-challenge-mayor-14-plg-1](https://user-images.githubusercontent.com/67078790/167770482-26a4c958-88a4-4ca2-ba44-2741ecae5238.png)
 
+
 Para pantalla menor o igual a 12":
-
-
-Diseño responsive-Tablets:
 
 ![kuepa-challenge-12plg](https://user-images.githubusercontent.com/67078790/167772091-831e974a-39ce-478b-abca-6cecf20a51e6.png)
 
+
+Diseño responsive-Tablets:
 
 ![kuepa-challenge-diseño-tablet](https://user-images.githubusercontent.com/67078790/167770610-0e4f76ef-5d90-4438-9cf1-9801490e005a.png)
 
