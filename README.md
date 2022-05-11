@@ -4,6 +4,8 @@ Challenge UI
 ```sh
 Esta aplicación fue desarrollada con create-react-app. React v-18.1.0
 Hice uso de tecnologías como:
+
+```
 ### `JavaScript`
 ### `ReactJS`
 ### `Hooks`
@@ -15,10 +17,7 @@ Hice uso de tecnologías como:
 ### `Date Picker de Material-UI`
 ### `React Circular Progress Bar`
 
-
 Tiene un diseño responsive.
-
-```
 
 Usted puede clonar este repositorio de la siguiente manera:
 
