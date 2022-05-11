@@ -1,0 +1,47 @@
+.home-right-panel {
+    width: var(--width-lateral-panel-home-rigth);
+    color: white;
+    height: 100vh;
+    text-align: center;
+    border-top-left-radius: var(--radius-home-page);
+    border-bottom-left-radius: var(--radius-home-page);
+    position: fixed;
+    right: 0;
+    transition: all 0.2s ease;
+}
+
+.container-rigth-panel {
+    height: 90vh;
+    max-height: 90vh;
+    margin: 5vh 0px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.vertical-line-panel {
+    height: 30vh;
+    width: 5px;
+    z-index: 1;
+    background-color: #ffff;
+    border-radius: 5px;
+    position: fixed;
+    top: 35vh;
+}
+
+.vertical-line-panel:hover {
+    cursor: pointer;
+}
+
+.conatiner-items-rigth-panel {
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-right-panel {
+        width: 25px;
+        transition: all 0.2s ease;
+    }
+   
+}

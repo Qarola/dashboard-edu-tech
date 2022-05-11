@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-//import Home from './components/Home/Home';
-import PlayersState from './context/Player/PlayerContext';
+import React from "react";
+import Home from "./components/Home/Home";
+import PlayersState from "./context/playerContext/playersState";
+import "./App.css";
 
-const App = () =>  {
+function App() {
   return (
     <PlayersState>
-  {/*     <Home /> */}
+      <Home />
     </PlayersState>
   );
 }

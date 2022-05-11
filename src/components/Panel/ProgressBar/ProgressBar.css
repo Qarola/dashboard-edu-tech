@@ -1,0 +1,31 @@
+.container-progress {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 12px;
+    padding: 3px 3px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.container-progress-2 {
+    height: 100%;
+    width: 100%;
+    background: #DDD;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 50%;
+    /* background: -webkit-linear-gradient(left, rgba(147, 195, 240, 1) 0%, rgba(9, 79, 153, 1) 100%); */
+    border-radius: 10px;
+}
+
+.text-percent {
+    margin: 0px;
+    padding: 0px;
+    /* font-weight: bold; */
+}

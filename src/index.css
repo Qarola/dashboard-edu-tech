@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f8fa;
+    
+    /* global variables */
+    /* measures */
+    --radius-home-page: 60px;
+    --width-lateral-panel-home-left: 100px;
+    --width-lateral-panel-home-rigth: 140px;
+
+    /* Colors */
+    --color-primary: #2c2c43;
+    --color-accent: #e16d3a;
 }
 
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+
+/* global classes */
+.inline-top-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inline-middle-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-page {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    width: auto;
+}
+
+.bg-color-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-color-accent {
+    background-color: var(--color-accent);
+}
+
+
+/* scroll bar customized*/
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #808080;
+    border-radius: 10px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+

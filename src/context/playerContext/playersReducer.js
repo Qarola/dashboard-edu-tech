@@ -1,24 +1,21 @@
-import { GET_PRO_PLAYERS, SAVE_FILTERED_PLAYER, SAVE_INFO_USER } from "../types/index";
-
-
+import { GET_PRO_PLAYERS, SAVE_FILTERED_PLAYERS, SAVE_INFO_USER } from "../types/index";
 // eslint-disable-next-line
 export default (state, action) => {
-    const { payload, type } = action;
-    switch (type) {
+    switch (action.type) {
         case GET_PRO_PLAYERS:
             return {
                 ...state,
-                proPlayer: payload
+                proPlayers: action.payload
             }
-        case SAVE_FILTERED_PLAYER:
+        case SAVE_FILTERED_PLAYERS:
             return {
                 ...state,
-                filterPlayer: payload
+                filterPlayers: action.payload
             }
         case SAVE_INFO_USER:
             return {
                 ...state,
-                user: payload
+                user: action.payload
             }
         default:
             return { ...state };

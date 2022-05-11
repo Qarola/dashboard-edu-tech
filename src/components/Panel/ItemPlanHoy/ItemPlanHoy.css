@@ -1,0 +1,55 @@
+.container-item-plan-hoy {
+    width: 40%;
+    margin: 10px 5%;
+    padding: 10px 0px;
+}
+
+.sqare-number {
+    width: 80px;
+    height: 80px;
+    margin: 5px 10px;
+    /* background: blue; */
+    /* background: -webkit-linear-gradient(left, rgba(147, 195, 240, 1) 0%, rgba(9, 79, 153, 1) 100%); */
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circle-sqare-number {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin: 12.5px;
+}
+
+.number-square-number {
+    position: absolute;
+    top: -16px;
+    left: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+     background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.text-item-plan-hoy {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+}
+
+.text-item-plan-hoy>p:first-child {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .container-item-plan-hoy {
+        width: 95%;
+        margin: 10px 2.5%;
+        text-align: left;
+    }
+}

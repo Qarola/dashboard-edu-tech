@@ -1,0 +1,17 @@
+.container-meta-grupal {
+    height: 150px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.title-meta-grupal {
+    font-size: 1.3rem;
+    margin: 7px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-meta-grupal {
+        width: 98%;
+        margin: 10px 2% 10px 0%;
+    }
+}

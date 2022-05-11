@@ -1,0 +1,42 @@
+.container-plan-hoy {
+    width: 550px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    position: relative;
+}
+
+.title-plan-hoy {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.call-handling {
+    font-size: 0.9rem;
+    margin: 0;
+    float: right;
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+
+.call-handling:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-plan-hoy {
+        width: 95%;
+        margin: 10px 2.5%;
+        text-align: left;
+    }
+    .call-handling {
+        position: relative;
+        display: block;
+        margin-top: -18px;
+        margin-bottom: 20px;
+        float: left;
+    }
+}

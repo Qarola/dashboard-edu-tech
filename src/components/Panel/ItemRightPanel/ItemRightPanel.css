@@ -1,0 +1,45 @@
+.conatiner-item-rigth-panel {
+    margin: 10px 0px;
+    width: 70px;
+    height: 70px;
+    background-color: #54555f;
+    border-radius: 10px;
+    position: relative;
+}
+
+.icon-item-rigth-panel {
+    position: absolute;
+    left: 3px;
+    top: -7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+.text-name-item {
+    text-align: left;
+    font-size: 0.88rem;
+    color: #ffffff;
+    margin: 0px 5px;
+}
+
+.text-time-item {
+    font-size: 0.7rem;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+.header-item-rigth-panel {
+    background-color: #bdc1cf;
+    height: 17px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header-item-rigth-panel>p {
+    font-size: 0.55rem;
+    margin: 0;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 3px;
+}
